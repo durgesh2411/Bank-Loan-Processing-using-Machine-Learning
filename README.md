@@ -1,6 +1,6 @@
-# Bank-Loan-Processing-using-Machine-Learning
+### ${\color{lightblue} Bank-Loan-Processing-using-Machine-Learning}$
 
-# ${\color{lightblue} Table}$
+### ${\color{lightblue} Table}$
 
 | ${\color{red} Serial \space No. }$ | ${\color{red} Work}$ | ${\color{red} Description }$ | ${\color{red} Progress }$ |
 |-|-|-|-|
@@ -11,6 +11,6 @@
 | 5. | ${\color{lightgreen} Deep \space Learning}$ | Deep Learning and Model Training using the Artificial Neural Networks (ANN). There were two hidden layers present in the Neural Network. Plotted the Confusion Matrix and the Classification Report with the help of Tensorflow and Keras as a Wrapper Library. | <b><i> Completed |
   
 
-# ${\color{lightblue} Made \space By}$
+### ${\color{lightblue} Made \space By}$
   ${\color{lightgreen} Durgesh \space Kumar \space Singh}$
 
