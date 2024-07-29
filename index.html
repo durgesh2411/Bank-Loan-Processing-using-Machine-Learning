@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Linking the CSS file to HTML file using url_for() method.. -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/>
+        <title>Danske Bank</title>
+    </head>
+    <body>
+        <h1 id="heading">Danske Bank</h1>
+        <h3>Loan Processing Using Machine Learning</h3>
+            <button class="btn" id="div1">Click Here</button>
+            <button class="btn" id="div2">Reload</button>
+        <div class="login" id="fx1">
+            <form action="{{ url_for('predict')}}" method="post">
+                <input type="text" name="Annual Income" placeholder="Annual Income" required="required" class="ip1">
+                <input type="text" name="Income Category" placeholder="Income Category" required="required" class="ip1">
+                <input type="text" name="DTI" placeholder="DTI" required="required" class="ip1">
+                <input type="text" name="Interest Rate" placeholder="Interest Rate" required="required" class="ip1">
+                <input type="text" name="Total Payment" placeholder="Total Payment" required="required" class="ip1">
+                <input type="text" name="Installment" placeholder="Installment" required="required" class="ip1">
+                <input type="text" name="Recoveries" placeholder="Recoveries" required="required" class="ip1">
+                <input type="text" name="Total Recovery Principal" placeholder="Total Recovery Principal" required="required" class="ip1">
+                <button type="submit" class="btn" id="bt1">Predict Loan Amount</button>
+            </form>
+            <div id="ans">
+            {{prediction_text}}
+            </div>
+        </div>
+        <script>
+        </script>
+    </body>
+</html>
