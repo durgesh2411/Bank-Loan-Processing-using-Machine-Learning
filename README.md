@@ -1,4 +1,4 @@
-### ${\color{lightblue} Bank-Loan-Processing-using-Machine-Learning}$
+### ${\color{lightblue} Bank \space Loan \space Processing \space using \space Machine \space Learning}$
 
 ### ${\color{lightblue} Table}$
 
